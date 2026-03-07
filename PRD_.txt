@@ -1,0 +1,39 @@
+Product Requirements System
+Title: EazyPrint FAST API Application for Printing Management
+Prepared By: [Janelle Christian S. Tagra]
+1.	Project Overview Describe the application.
+-A Python Fast API application designed to simplify the manual printing management, making it automatic instead of manual. Avoiding losing profits and avoiding human errors. To track the printing orders and calculate the cost automatically, which allows the job for the staff easier to monitor the orders and costs efficiently. 
+
+2.	Problem Statement what problem does the client face?
+-	Manual writing for the printing orders which may cause duplication or misunderstanding.
+-	Manual calculation of the costs which may cause miscalculation and loss profits.
+-	Difficulty of tracking or monitoring the orders.
+-	Missing logbooks.
+
+3.	Objective List system goals.	
+-	Enables easy tracking and allows monitoring of orders.
+-	Automatic calculation of orders cost.
+-	Allows the staff to input orders in the application to avoid duplication and misunderstanding.
+-	Avoiding human errors.
+-	Automatic records of information of orders.
+-	Allows customer to input name, type of print, and amount of orders.
+-	Allows the customer to see the order summary.
+
+
+4.	Users Primary users of the system.
+-	Staff - Allows to mostly use of the system and functions, able to use all of the functions.
+-	Owner - Allows to see the summary of the orders and profits of the system, able to use all of the functions.
+-	Clients - Allows to put orders and see their order summary.
+
+5.	Printing Prices
+-	Black & White	PHP 2.00/Page
+-	Colored 	PHP 5.00/Page
+-	Photo Paper	PHP 20.00/Page
+
+6.	Data Model Order Fields:
+-	order_id
+-	student_name
+-	document_name
+-	pages
+-	print_type
+-	total_cost
